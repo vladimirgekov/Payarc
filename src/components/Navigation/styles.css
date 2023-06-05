@@ -1,0 +1,88 @@
+.navigation-style {
+  padding: 32px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 12px #00000026;
+  transition: all 0.3s ease;
+}
+
+.navigation-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.navigation-main {
+  padding: 64px 0px 128px 0px;
+}
+
+.dropdown-button {
+  display: flex;
+  align-items: center;
+}
+
+.profile-name {
+  color: #131741;
+  text-decoration: underline;
+  padding-left: 12px;
+}
+
+.profile-button {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  border-left: 2px solid #63A5ED;
+  color: #63A5ED;
+  padding-left: 20px;
+}
+
+.dropdown-option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+}
+
+.dropdown-name {
+  margin: 0;
+}
+
+.additional-dropdown {
+  padding-left: 10px;
+  font-size: 15px;
+  color: #B4B4B4;
+  border-left: 2px solid #B4B4B4;
+}
+
+.navigation-style.collapsed {
+  width: 80px;
+  padding: 32px 8px;
+}
+
+.navigation-style.collapsed .navigation-header {
+  justify-content: center;
+}
+
+.navigation-style.collapsed .button-name {
+  display: none;
+}
+
+.navigation-style.collapsed .profile-name {
+  display: none;
+}
+
+.navigation-style.collapsed .navigation-button {
+ justify-content: center;
+ padding-bottom: 20px;
+}
+
+.navigation-style.collapsed .profile-button {
+  justify-content: center;
+ }
+
+ .navigation-style.collapsed .dropdown {
+  display: none;
+ }

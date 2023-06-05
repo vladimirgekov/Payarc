@@ -1,0 +1,12 @@
+.time {
+  color: #707070;
+  font-size: 40px;
+  font-weight: 500;
+  margin: 0px;
+ }
+
+ .date {
+  color: #B4B4B4;
+  margin: 0px;
+  float: right;
+ }

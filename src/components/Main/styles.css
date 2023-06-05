@@ -1,0 +1,33 @@
+.container {
+  padding: 40px 120px 0px 0px;
+}
+
+.container-info {
+  display: flex;
+  align-items: center;
+  padding: 40px 80px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 5px 12px #00000026;
+}
+
+.main-box {
+  padding-left: 100px;
+}
+
+.title {
+  margin-top: 0px;
+  color: #131741;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.subtitle {
+  color: #737376;
+  font-size: 15px;
+}
+
+.container-boxes {
+  display: flex;
+  padding-top: 40px;
+}
